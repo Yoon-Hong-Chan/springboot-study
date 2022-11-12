@@ -11,12 +11,4 @@ public class SpringbootStudyApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringbootStudyApplication.class, args);
     }
-
-    @Bean
-    public Holoman holoman(){
-        Holoman holoman = new Holoman();
-        holoman.setName("Yoons");
-        holoman.setHowLong(60);
-        return holoman;
-    }
 }
