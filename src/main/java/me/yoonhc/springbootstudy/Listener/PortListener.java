@@ -1,4 +1,4 @@
-package me.yoonhc.springbootstudy;
+package me.yoonhc.springbootstudy.Listener;
 
 import org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext;
 import org.springframework.boot.web.servlet.context.ServletWebServerInitializedEvent;

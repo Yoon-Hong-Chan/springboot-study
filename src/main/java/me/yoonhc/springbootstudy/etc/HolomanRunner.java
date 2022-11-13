@@ -1,4 +1,4 @@
-package me.yoonhc.springbootstudy;
+package me.yoonhc.springbootstudy.etc;
 
 import me.yoonhc.Holoman;
 import org.springframework.beans.factory.annotation.Autowired;

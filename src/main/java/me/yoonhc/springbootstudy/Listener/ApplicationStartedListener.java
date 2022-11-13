@@ -1,4 +1,4 @@
-package me.yoonhc.springbootstudy;
+package me.yoonhc.springbootstudy.Listener;
 
 import org.springframework.boot.context.event.ApplicationStartedEvent;
 import org.springframework.context.ApplicationListener;

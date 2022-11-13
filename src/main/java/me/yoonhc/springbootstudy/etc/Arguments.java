@@ -1,4 +1,4 @@
-package me.yoonhc.springbootstudy;
+package me.yoonhc.springbootstudy.etc;
 
 import java.util.Arrays;
 import org.springframework.boot.ApplicationArguments;
