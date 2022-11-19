@@ -11,7 +11,7 @@ public class PortListener implements ApplicationListener<ServletWebServerInitial
     @Override
     public void onApplicationEvent(ServletWebServerInitializedEvent servletWebServerInitializedEvent) {
         ServletWebServerApplicationContext applicationContext = servletWebServerInitializedEvent.getApplicationContext();
-        System.out.println(applicationContext.getWebServer().getPort());
+//        System.out.println(applicationContext.getWebServer().getPort());
 
     }
 }

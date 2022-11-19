@@ -20,13 +20,13 @@ public class HolomanRunner implements ApplicationRunner {
     private String hello;
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        System.out.println("adminFullName : "+properties.getFullName());
-        System.out.println("adminName : "+properties.getName());
-        System.out.println("age : "+properties.getAge());
-        System.out.println(holoman);
-
-        System.out.println("===========");
-        System.out.println(hello);
-        System.out.println("===========");
+//        System.out.println("adminFullName : "+properties.getFullName());
+//        System.out.println("adminName : "+properties.getName());
+//        System.out.println("age : "+properties.getAge());
+//        System.out.println(holoman);
+//
+//        System.out.println("===========");
+//        System.out.println(hello);
+//        System.out.println("===========");
     }
 }

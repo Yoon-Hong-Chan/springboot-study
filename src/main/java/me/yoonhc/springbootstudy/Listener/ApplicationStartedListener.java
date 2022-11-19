@@ -13,7 +13,7 @@ public class ApplicationStartedListener implements ApplicationListener<Applicati
     @Override
     public void onApplicationEvent(ApplicationStartedEvent applicationStartedEvent) {
         logger.info("=======================");
-        logger.info("Application is starting");
+        logger.info("Application is started");
         logger.info("=======================");
     }
 }
