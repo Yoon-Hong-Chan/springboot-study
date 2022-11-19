@@ -14,7 +14,6 @@
     <name>springboot-study</name>
     <description>springboot-study</description>
     <properties>
-        <java.version>11</java.version>
         <tomcat.version>9.0.10</tomcat.version>
     </properties>
     <dependencies>

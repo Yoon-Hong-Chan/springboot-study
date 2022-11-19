@@ -16,8 +16,9 @@ public class HolomanRunner implements ApplicationRunner {
     @Autowired
     HongChanProperties properties;
 
-    @Autowired
-    private String hello;
+//    @Autowired
+//    private String hello;
+
     @Override
     public void run(ApplicationArguments args) throws Exception {
 //        System.out.println("adminFullName : "+properties.getFullName());
