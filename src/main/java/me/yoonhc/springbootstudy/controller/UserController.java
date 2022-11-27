@@ -1,8 +1,11 @@
 package me.yoonhc.springbootstudy.controller;
 
+import me.yoonhc.springbootstudy.domain.User;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.context.annotation.RequestScope;
 
 @RestController
 public class UserController {
@@ -10,5 +13,10 @@ public class UserController {
     @GetMapping("/hello")
     public String hello(){
         return "hello";
+    }
+
+    @PostMapping("/users/create")
+    public User create(@RequestBody User user){
+        return user;
     }
 }
