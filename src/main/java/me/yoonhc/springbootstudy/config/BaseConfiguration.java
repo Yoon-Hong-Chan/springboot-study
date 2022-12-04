@@ -11,4 +11,9 @@ public class BaseConfiguration {
     public String hello(){
         return "hello";
     }
+    @Bean
+    public String hello2(){
+        return "hello";
+    }
+
 }
