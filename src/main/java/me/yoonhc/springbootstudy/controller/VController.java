@@ -11,6 +11,7 @@ public class VController {
     @GetMapping("/hello")
     public String hello(Model model){
         model.addAttribute("name","yoonhc");
+        model.addAttribute("age","35");
         return "hello";
     }
 
