@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class VController {
 
-    @GetMapping("/hello")
+    @GetMapping("/hello3")
     public String hello(Model model){
         model.addAttribute("name","yoonhc");
         model.addAttribute("age","35");
-        return "hello";
+        return "hello3";
     }
 
     @GetMapping("/errorTest")

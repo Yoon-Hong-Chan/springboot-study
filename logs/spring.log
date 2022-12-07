@@ -3133,3 +3133,160 @@ java.lang.IllegalArgumentException: The HTTP header line [mozilla/5.0 (X11; Ubun
 2022-12-05 23:48:39.777  INFO 37500 --- [main] o.s.t.w.s.TestDispatcherServlet          : FrameworkServlet '': initialization completed in 15 ms
 2022-12-05 23:48:40.515  INFO 37500 --- [main] m.y.s.c.VControllerTest                  : Started VControllerTest in 3.196 seconds (JVM running for 4.72)
 2022-12-05 23:48:41.246  INFO 37500 --- [Thread-3] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@4879dfad: startup date [Mon Dec 05 23:48:37 KST 2022]; root of context hierarchy
+2022-12-08 00:47:53.529  INFO 37672 --- [restartedMain] m.y.s.SpringbootStudyApplication         : Starting SpringbootStudyApplication on DESKTOP-DRP6FFQ with PID 37672 (started by 윤홍찬 in C:\Users\윤홍찬\Desktop\공부\springboot-study)
+2022-12-08 00:47:53.537  INFO 37672 --- [restartedMain] m.y.s.SpringbootStudyApplication         : No active profile set, falling back to default profiles: default
+2022-12-08 00:47:53.595  INFO 37672 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@53c06f77: startup date [Thu Dec 08 00:47:53 KST 2022]; root of context hierarchy
+2022-12-08 00:47:55.258  INFO 37672 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2022-12-08 00:47:55.279  INFO 37672 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2022-12-08 00:47:55.280  INFO 37672 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/9.0.10
+2022-12-08 00:47:55.285  INFO 37672 --- [restartedMain] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\윤홍찬\.jdks\corretto-1.8.0_302\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\윤홍찬\AppData\Local\Programs\Python\Python38-32\Scripts;C:;Users\윤홍찬\AppData\Local\Programs\Python\Python38-32;C:;Program Files (x86)\dotnet\;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\HashiCorp\Vagrant\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\윤홍찬\AppData\Local\Microsoft\WindowsApps;C:\Users\윤홍찬\AppData\Local\afreeca;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2\bin;;C:\Program Files\Java\jre1.8.0_231\bin;;.]
+2022-12-08 00:47:55.400  INFO 37672 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2022-12-08 00:47:55.400  INFO 37672 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1805 ms
+2022-12-08 00:47:55.585  INFO 37672 --- [restartedMain] o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2022-12-08 00:47:55.588  INFO 37672 --- [restartedMain] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2022-12-08 00:47:55.589  INFO 37672 --- [restartedMain] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2022-12-08 00:47:55.589  INFO 37672 --- [restartedMain] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2022-12-08 00:47:55.590  INFO 37672 --- [restartedMain] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2022-12-08 00:47:55.769  INFO 37672 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-12-08 00:47:56.011  INFO 37672 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@53c06f77: startup date [Thu Dec 08 00:47:53 KST 2022]; root of context hierarchy
+2022-12-08 00:47:56.074  INFO 37672 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/helloTest]}" onto public java.lang.String me.yoonhc.springbootstudy.controller.HelloController.Hello()
+2022-12-08 00:47:56.077  INFO 37672 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2],methods=[GET]}" onto public java.lang.String me.yoonhc.springbootstudy.controller.SampleController.hello()
+2022-12-08 00:47:56.081  INFO 37672 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/create],methods=[POST]}" onto public me.yoonhc.springbootstudy.domain.User me.yoonhc.springbootstudy.controller.UserController.create(me.yoonhc.springbootstudy.domain.User)
+2022-12-08 00:47:56.081  INFO 37672 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public me.yoonhc.springbootstudy.domain.User me.yoonhc.springbootstudy.controller.UserController.hello()
+2022-12-08 00:47:56.083  WARN 37672 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'VController' method 
+public java.lang.String me.yoonhc.springbootstudy.controller.VController.hello(org.springframework.ui.Model)
+to {[/hello],methods=[GET]}: There is already 'userController' bean method
+public me.yoonhc.springbootstudy.domain.User me.yoonhc.springbootstudy.controller.UserController.hello() mapped.
+2022-12-08 00:47:56.087  INFO 37672 --- [restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2022-12-08 00:47:56.100  INFO 37672 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-08 00:47:56.107 ERROR 37672 --- [restartedMain] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'VController' method 
+public java.lang.String me.yoonhc.springbootstudy.controller.VController.hello(org.springframework.ui.Model)
+to {[/hello],methods=[GET]}: There is already 'userController' bean method
+public me.yoonhc.springbootstudy.domain.User me.yoonhc.springbootstudy.controller.UserController.hello() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1708) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:581) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) [spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395) [spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) [spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at me.yoonhc.springbootstudy.SpringbootStudyApplication.main(SpringbootStudyApplication.java:19) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'VController' method 
+public java.lang.String me.yoonhc.springbootstudy.controller.VController.hello(org.springframework.ui.Model)
+to {[/hello],methods=[GET]}: There is already 'userController' bean method
+public me.yoonhc.springbootstudy.domain.User me.yoonhc.springbootstudy.controller.UserController.hello() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:580) ~[spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:544) ~[spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:265) ~[spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:250) ~[spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[?:?]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:248) ~[spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:218) ~[spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:188) ~[spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:129) ~[spring-webmvc-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1767) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1704) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	... 19 more
+
+2022-12-08 00:48:31.928  INFO 25548 --- [restartedMain] m.y.s.SpringbootStudyApplication         : Starting SpringbootStudyApplication on DESKTOP-DRP6FFQ with PID 25548 (started by 윤홍찬 in C:\Users\윤홍찬\Desktop\공부\springboot-study)
+2022-12-08 00:48:31.936  INFO 25548 --- [restartedMain] m.y.s.SpringbootStudyApplication         : No active profile set, falling back to default profiles: default
+2022-12-08 00:48:31.987  INFO 25548 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@168ae282: startup date [Thu Dec 08 00:48:31 KST 2022]; root of context hierarchy
+2022-12-08 00:48:33.501  INFO 25548 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2022-12-08 00:48:33.518  INFO 25548 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2022-12-08 00:48:33.518  INFO 25548 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/9.0.10
+2022-12-08 00:48:33.523  INFO 25548 --- [restartedMain] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\윤홍찬\.jdks\corretto-1.8.0_302\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\윤홍찬\AppData\Local\Programs\Python\Python38-32\Scripts;C:;Users\윤홍찬\AppData\Local\Programs\Python\Python38-32;C:;Program Files (x86)\dotnet\;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\HashiCorp\Vagrant\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\윤홍찬\AppData\Local\Microsoft\WindowsApps;C:\Users\윤홍찬\AppData\Local\afreeca;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2\bin;;C:\Program Files\Java\jre1.8.0_231\bin;;.]
+2022-12-08 00:48:33.639  INFO 25548 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2022-12-08 00:48:33.640  INFO 25548 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1654 ms
+2022-12-08 00:48:33.806  INFO 25548 --- [restartedMain] o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2022-12-08 00:48:33.810  INFO 25548 --- [restartedMain] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2022-12-08 00:48:33.810  INFO 25548 --- [restartedMain] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2022-12-08 00:48:33.811  INFO 25548 --- [restartedMain] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2022-12-08 00:48:33.811  INFO 25548 --- [restartedMain] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2022-12-08 00:48:33.974  INFO 25548 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-12-08 00:48:34.239  INFO 25548 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@168ae282: startup date [Thu Dec 08 00:48:31 KST 2022]; root of context hierarchy
+2022-12-08 00:48:34.289  INFO 25548 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/helloTest]}" onto public java.lang.String me.yoonhc.springbootstudy.controller.HelloController.Hello()
+2022-12-08 00:48:34.292  INFO 25548 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2],methods=[GET]}" onto public java.lang.String me.yoonhc.springbootstudy.controller.SampleController.hello()
+2022-12-08 00:48:34.295  INFO 25548 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/create],methods=[POST]}" onto public me.yoonhc.springbootstudy.domain.User me.yoonhc.springbootstudy.controller.UserController.create(me.yoonhc.springbootstudy.domain.User)
+2022-12-08 00:48:34.295  INFO 25548 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public me.yoonhc.springbootstudy.domain.User me.yoonhc.springbootstudy.controller.UserController.hello()
+2022-12-08 00:48:34.296  INFO 25548 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello3],methods=[GET]}" onto public java.lang.String me.yoonhc.springbootstudy.controller.VController.hello(org.springframework.ui.Model)
+2022-12-08 00:48:34.296  INFO 25548 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/errorTest],methods=[GET]}" onto public java.lang.String me.yoonhc.springbootstudy.controller.VController.errorTest(org.springframework.ui.Model)
+2022-12-08 00:48:34.300  INFO 25548 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2022-12-08 00:48:34.301  INFO 25548 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2022-12-08 00:48:34.334  INFO 25548 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-12-08 00:48:34.334  INFO 25548 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-12-08 00:48:34.334  INFO 25548 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/m/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-12-08 00:48:34.441  INFO 25548 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-12-08 00:48:34.624  INFO 25548 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-08 00:48:34.709  INFO 25548 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2022-12-08 00:48:34.750  INFO 25548 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-08 00:48:34.754  INFO 25548 --- [restartedMain] m.y.s.SpringbootStudyApplication         : Started SpringbootStudyApplication in 3.275 seconds (JVM running for 4.91)
+2022-12-08 00:48:34.755  INFO 25548 --- [restartedMain] m.y.s.L.ApplicationStartedListener       : =======================
+2022-12-08 00:48:34.755  INFO 25548 --- [restartedMain] m.y.s.L.ApplicationStartedListener       : Application is started
+2022-12-08 00:48:34.755  INFO 25548 --- [restartedMain] m.y.s.L.ApplicationStartedListener       : =======================
+2022-12-08 00:48:41.458  INFO 25548 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2022-12-08 00:48:41.459  INFO 25548 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2022-12-08 00:48:41.482  INFO 25548 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2022-12-08 00:48:59.718  INFO 25548 --- [Thread-16] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@168ae282: startup date [Thu Dec 08 00:48:31 KST 2022]; root of context hierarchy
+2022-12-08 00:48:59.721  INFO 25548 --- [Thread-16] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2022-12-08 00:49:05.994  INFO 32572 --- [restartedMain] m.y.s.SpringbootStudyApplication         : Starting SpringbootStudyApplication on DESKTOP-DRP6FFQ with PID 32572 (started by 윤홍찬 in C:\Users\윤홍찬\Desktop\공부\springboot-study)
+2022-12-08 00:49:06.000  INFO 32572 --- [restartedMain] m.y.s.SpringbootStudyApplication         : No active profile set, falling back to default profiles: default
+2022-12-08 00:49:06.045  INFO 32572 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3195e195: startup date [Thu Dec 08 00:49:06 KST 2022]; root of context hierarchy
+2022-12-08 00:49:07.460  INFO 32572 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2022-12-08 00:49:07.478  INFO 32572 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2022-12-08 00:49:07.479  INFO 32572 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/9.0.10
+2022-12-08 00:49:07.483  INFO 32572 --- [restartedMain] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\윤홍찬\.jdks\corretto-1.8.0_302\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\윤홍찬\AppData\Local\Programs\Python\Python38-32\Scripts;C:;Users\윤홍찬\AppData\Local\Programs\Python\Python38-32;C:;Program Files (x86)\dotnet\;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\HashiCorp\Vagrant\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\윤홍찬\AppData\Local\Microsoft\WindowsApps;C:\Users\윤홍찬\AppData\Local\afreeca;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2\bin;;C:\Program Files\Java\jre1.8.0_231\bin;;.]
+2022-12-08 00:49:07.604  INFO 32572 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2022-12-08 00:49:07.604  INFO 32572 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1559 ms
+2022-12-08 00:49:07.781  INFO 32572 --- [restartedMain] o.s.b.w.s.ServletRegistrationBean        : Servlet dispatcherServlet mapped to [/]
+2022-12-08 00:49:07.785  INFO 32572 --- [restartedMain] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2022-12-08 00:49:07.786  INFO 32572 --- [restartedMain] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2022-12-08 00:49:07.786  INFO 32572 --- [restartedMain] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2022-12-08 00:49:07.786  INFO 32572 --- [restartedMain] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2022-12-08 00:49:07.972  INFO 32572 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-12-08 00:49:08.210  INFO 32572 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3195e195: startup date [Thu Dec 08 00:49:06 KST 2022]; root of context hierarchy
+2022-12-08 00:49:08.257  INFO 32572 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/helloTest]}" onto public java.lang.String me.yoonhc.springbootstudy.controller.HelloController.Hello()
+2022-12-08 00:49:08.260  INFO 32572 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2],methods=[GET]}" onto public java.lang.String me.yoonhc.springbootstudy.controller.SampleController.hello()
+2022-12-08 00:49:08.264  INFO 32572 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/users/create],methods=[POST]}" onto public me.yoonhc.springbootstudy.domain.User me.yoonhc.springbootstudy.controller.UserController.create(me.yoonhc.springbootstudy.domain.User)
+2022-12-08 00:49:08.265  INFO 32572 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public org.springframework.hateoas.Resource<me.yoonhc.springbootstudy.domain.User> me.yoonhc.springbootstudy.controller.UserController.hello()
+2022-12-08 00:49:08.266  INFO 32572 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello3],methods=[GET]}" onto public java.lang.String me.yoonhc.springbootstudy.controller.VController.hello(org.springframework.ui.Model)
+2022-12-08 00:49:08.266  INFO 32572 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/errorTest],methods=[GET]}" onto public java.lang.String me.yoonhc.springbootstudy.controller.VController.errorTest(org.springframework.ui.Model)
+2022-12-08 00:49:08.268  INFO 32572 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2022-12-08 00:49:08.269  INFO 32572 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2022-12-08 00:49:08.296  INFO 32572 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-12-08 00:49:08.296  INFO 32572 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-12-08 00:49:08.296  INFO 32572 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/m/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-12-08 00:49:08.397  INFO 32572 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-12-08 00:49:08.567  INFO 32572 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-08 00:49:08.594  INFO 32572 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2022-12-08 00:49:08.678  INFO 32572 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-08 00:49:08.683  INFO 32572 --- [restartedMain] m.y.s.SpringbootStudyApplication         : Started SpringbootStudyApplication in 3.102 seconds (JVM running for 4.701)
+2022-12-08 00:49:08.684  INFO 32572 --- [restartedMain] m.y.s.L.ApplicationStartedListener       : =======================
+2022-12-08 00:49:08.684  INFO 32572 --- [restartedMain] m.y.s.L.ApplicationStartedListener       : Application is started
+2022-12-08 00:49:08.684  INFO 32572 --- [restartedMain] m.y.s.L.ApplicationStartedListener       : =======================
+2022-12-08 00:49:12.136  INFO 32572 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2022-12-08 00:49:12.136  INFO 32572 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2022-12-08 00:49:12.157  INFO 32572 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2022-12-08 00:49:12.371  WARN 32572 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to write HTTP message: org.springframework.http.converter.HttpMessageNotWritableException: Could not marshal [Resource { content: me.yoonhc.springbootstudy.domain.User@67bebd4e, links: [<http://localhost:8080/hello>;rel="self"] }]: null; nested exception is javax.xml.bind.MarshalException
+ - with linked exception:
+[com.sun.istack.internal.SAXException2: 이 컨텍스트에서 class me.yoonhc.springbootstudy.domain.User과(와) 해당 수퍼 클래스를 인식할 수 없습니다.
+javax.xml.bind.JAXBException: 이 컨텍스트에서 class me.yoonhc.springbootstudy.domain.User과(와) 해당 수퍼 클래스를 인식할 수 없습니다.]
+2022-12-08 00:49:12.372  WARN 32572 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.http.converter.HttpMessageNotWritableException: Could not marshal [Resource { content: me.yoonhc.springbootstudy.domain.User@67bebd4e, links: [<http://localhost:8080/hello>;rel="self"] }]: null; nested exception is javax.xml.bind.MarshalException
+ - with linked exception:
+[com.sun.istack.internal.SAXException2: 이 컨텍스트에서 class me.yoonhc.springbootstudy.domain.User과(와) 해당 수퍼 클래스를 인식할 수 없습니다.
+javax.xml.bind.JAXBException: 이 컨텍스트에서 class me.yoonhc.springbootstudy.domain.User과(와) 해당 수퍼 클래스를 인식할 수 없습니다.]
