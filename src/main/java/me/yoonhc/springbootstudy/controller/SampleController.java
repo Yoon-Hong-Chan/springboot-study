@@ -15,4 +15,16 @@ public class SampleController {
         return "hello " + sampleService.getName();
     }
 
+    @GetMapping("/api-test")
+    public String apiTest() throws InterruptedException {
+        Thread.sleep(5000);
+        return "apiTest " + sampleService.getName();
+    }
+
+    @GetMapping("/api-test2")
+    public String apiTest2() throws InterruptedException {
+        Thread.sleep(3000);
+        return "apiTest2 " + sampleService.getName();
+    }
+
 }
