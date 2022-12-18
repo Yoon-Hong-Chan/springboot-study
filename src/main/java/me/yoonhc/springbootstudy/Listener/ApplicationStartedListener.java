@@ -10,6 +10,8 @@ import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StopWatch;
 import org.springframework.web.client.RestTemplate;
+import org.springframework.web.reactive.function.client.WebClient;
+import reactor.core.publisher.Mono;
 
 @Component
 public class ApplicationStartedListener implements ApplicationListener<ApplicationStartedEvent> {
@@ -17,6 +19,9 @@ public class ApplicationStartedListener implements ApplicationListener<Applicati
 
     @Autowired
     RestTemplateBuilder restTemplateBuilder;
+
+    @Autowired
+    WebClient.Builder builder;
 
     @Override
     public void onApplicationEvent(ApplicationStartedEvent applicationStartedEvent) {
@@ -33,5 +38,40 @@ public class ApplicationStartedListener implements ApplicationListener<Applicati
 
         stopWatch.stop();
         System.out.println(stopWatch.prettyPrint());
+
+        WebClient webClient = builder.build();
+        StopWatch stopWatch2 = new StopWatch();
+        stopWatch2.start();
+        Mono<String> resultMono = webClient.get().uri("http://localhost:8080/api-test")
+                .retrieve()
+                .bodyToMono(String.class);
+
+        resultMono.subscribe(s -> {
+            System.out.println(s);
+            if(stopWatch2.isRunning()){
+                stopWatch2.stop();
+            }
+            System.out.println(stopWatch2.prettyPrint());
+
+            stopWatch2.start();
+        });
+
+        Mono<String> resultMono2 = webClient.get().uri("http://localhost:8080/api-test2")
+                .retrieve()
+                .bodyToMono(String.class);
+
+        resultMono2.subscribe(s -> {
+            System.out.println(s);
+            if(stopWatch2.isRunning()){
+                stopWatch2.stop();
+            }
+            System.out.println(stopWatch2.prettyPrint());
+
+            stopWatch2.start();
+        });
+
+        stopWatch2.stop();
+        System.out.println(stopWatch.prettyPrint());
+
     }
 }
