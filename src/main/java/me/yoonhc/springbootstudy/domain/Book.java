@@ -1,6 +1,9 @@
 package me.yoonhc.springbootstudy.domain;
 
 
+import me.yoonhc.springbootstudy.annotation.MyAnnotation;
+
+@MyAnnotation
 public class Book {
     private static String B = "BOOK";
 

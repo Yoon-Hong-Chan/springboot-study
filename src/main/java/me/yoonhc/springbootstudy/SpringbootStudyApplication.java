@@ -20,12 +20,14 @@ public class SpringbootStudyApplication {
 //        application.addListeners(new ApplicationStartingListener());
 //        application.run(args);
 
-        Class<Book> bookClass = Book.class;
-        Arrays.stream(bookClass.getDeclaredFields()).forEach(System.out::println);
+//        Class<Book> bookClass = Book.class;
+//        Arrays.stream(bookClass.getDeclaredFields()).forEach(System.out::println);
+//
+//        Arrays.stream(bookClass.getDeclaredMethods()).forEach(System.out::println);
+//
+//        Arrays.stream(bookClass.getDeclaredConstructors()).forEach(System.out::println);
 
-        Arrays.stream(bookClass.getDeclaredMethods()).forEach(System.out::println);
-
-        Arrays.stream(bookClass.getDeclaredConstructors()).forEach(System.out::println);
+            Arrays.stream(Book.class.getAnnotations()).forEach(System.out::println);
     }
 
 //    @Bean
